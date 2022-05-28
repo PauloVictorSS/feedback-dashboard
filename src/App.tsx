@@ -1,7 +1,14 @@
-function App() {
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Login from "./pages/Login";
+import "./global.css"
 
-  return (
-    <h1>Salve</h1>
+function App() {
+  return(
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />}/>
+      </Routes>
+    </Router>
   )
 }
 

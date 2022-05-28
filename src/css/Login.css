@@ -1,0 +1,43 @@
+form#login{
+
+    position: relative;
+
+    width: 95%;
+    max-width: 400px;
+    height: 276px;
+
+    margin: 30px auto 0;
+}
+
+form#login input{
+
+    margin: 11px 0 24px;
+}
+
+form#login span{
+    position: absolute;
+    right: 30px;
+
+    margin: .2rem;
+
+    font-size: .8rem;
+}
+
+form#login button{
+    width: 100%;
+    max-width: 340px;
+    height: 40px;
+
+    color: var(--font-color-primary);
+    background-color: var(--button-color);
+
+    font-weight: 700;
+    font-size: 1rem;
+
+    transition: .3s;
+}
+
+form#login button:hover{
+
+    background-color: var(--button-color-hover);
+}
